@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.post-container {
+    background-color: chocolate;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* width: 80%;
+    margin: 1em auto;
+    padding: 1em; */
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.container-people {
+    display: flex;
+    gap: 10px;
+    width:400px;
+    padding: .5em;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+.container-people h1 {
+    font-size: 16px;
+}
+
+.container-people p {
+   font-size: 14px;
+}
+
+.container-people img {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+}
